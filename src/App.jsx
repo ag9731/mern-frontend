@@ -9,7 +9,8 @@ import Dashboard from './api/components/Dashboard';
 import Register from './api/components/Register';
 import ResetPassword from './api/components/ResetPassword';
 import "./index.css";
-import ForgotPassword from './api/components/ForgotPassword';
+import ForgotPassword2 from './api/components/ForgotPassword2';
+// import ForgotPassword from './api/components/ForgotPassword';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,7 +21,7 @@ function App() {
        <Routes>
             <Route path='/register' element={<Register/>}/>
             <Route path="/login" element={<Login/>}/>
-            <Route path="/forgot-password" element={<ForgotPassword/>}/>
+            <Route path="/forgot-password" element={<ForgotPassword2/>}/>
             <Route path="/reset-password/:token" element={<ResetPassword/>}/>
 
             {/* Protected Routes */}
