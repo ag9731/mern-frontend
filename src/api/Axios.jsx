@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const app = axios.create({
-    baseURL: "http://localhost:5000/",
+    baseURL: "https://mern-backend-ojs2.onrender.com/",
     timeout: 5000,
      headers: {'X-Custom-Header': 'foobar'}
 })
