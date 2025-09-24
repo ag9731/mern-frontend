@@ -5,7 +5,7 @@ import './App.css'
 import Login from './api/components/Login'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import RequireAuth from './RequireAuth'
-import Dashboard from './api/components/dashboard'
+import Dashboard from './api/components/Dashboard';
 import Register from './api/components/Register'
 import ForgotPassword from './api/components/forgotPassword'
 import ResetPassword from './api/components/ResetPassword'
