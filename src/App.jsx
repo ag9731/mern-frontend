@@ -5,11 +5,12 @@ import './App.css';
 import Login from './api/components/Login';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import RequireAuth from './RequireAuth';
-import Dashboard from './api/components/Dashboard';
+// import Dashboard from './api/components/Dashboard';
 import Register from './api/components/Register';
 import ResetPassword from './api/components/ResetPassword';
 import "./index.css";
 import ForgotPassword2 from './api/components/ForgotPassword2';
+import Dashboard2 from './api/components/Dashboard2';
 // import ForgotPassword from './api/components/ForgotPassword';
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
 
             {/* Protected Routes */}
             <Route element={ <RequireAuth/>}>
-               <Route path='/dashboard' element={<Dashboard/>}/>
+               <Route path='/dashboard' element={<Dashboard2/>}/>
             </Route>
              
        </Routes>
