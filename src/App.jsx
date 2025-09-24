@@ -7,7 +7,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import RequireAuth from './RequireAuth'
 import Dashboard from './api/components/Dashboard';
 import Register from './api/components/Register'
-import ForgotPassword from './api/components/forgotPassword'
+import ForgotPassword from './api/components/ForgotPassword'
 import ResetPassword from './api/components/ResetPassword'
 import "./index.css";
 
